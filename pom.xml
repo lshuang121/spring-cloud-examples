@@ -6,11 +6,12 @@
     <modules>
         <module>spring-cloud-common</module>
         <module>spring-cloud-config-server</module>
+        <module>spring-cloud-config-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.5.1</version>
+        <version>2.5.2</version>
     </parent>
     <groupId>com.hls.spring</groupId>
     <artifactId>spring-cloud-examples</artifactId>
