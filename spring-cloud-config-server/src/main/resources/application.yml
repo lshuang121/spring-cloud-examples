@@ -1,0 +1,17 @@
+server:
+  port: 8300
+spring:
+  application:
+    name: Spring Cloud Config Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lshuang121/spring-cloud-config-repository.git
+#          search-paths: app1, app2
+          force-pull: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
